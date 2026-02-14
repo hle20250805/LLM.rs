@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1300" height="600" viewBox="0 0 1300 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LLM.rs vs FastAPI benchmark comparison">
+  <style>
+    .title { font: 700 16px/1.2 'Segoe UI', Roboto, Helvetica, Arial; fill:#222 }
+    .label { font: 600 13px/1 'Segoe UI', Roboto, Arial; fill:#333 }
+    .value { font: 600 12px/1 'Segoe UI', Roboto, Arial; fill:#000 }
+    .note { font: 12px/1 'Segoe UI', Roboto, Arial; fill:#666 }
+    .fast { fill:#9aa6b2 }
+    .rust { fill:#2b9f6a }
+    .grid { stroke:#eee; stroke-width:1 }
+  </style>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="48" fill="#fbfbfc"/>
+  <text x="20" y="30" class="title">LLM.rs — benchmark comparison (visual)</text>
+  <text x="1000" y="30" class="note">Data source: repository test screenshot</text>
+
+  <!-- Legend -->
+  <rect x="20" y="52" width="12" height="12" class="fast" rx="2"/>
+  <text x="38" y="62" class="note">FastAPI (huggingface)</text>
+  <rect x="240" y="52" width="12" height="12" class="rust" rx="2"/>
+  <text x="258" y="62" class="note">Rust (candle)</text>
+
+  <!-- Metrics rows (labels at x=20) -->
+  <!-- Layout: labelX=20, bars start at x=200, barMaxWidth=760 -->
+  <g transform="translate(0,80)">
+    <!-- Row: Average Latency -->
+    <text x="20" y="18" class="label">Average latency (s)</text>
+    <!-- FastAPI bar (value 1.33 -> full width) -->
+    <rect x="200" y="-6" width="760" height="18" class="fast" rx="6"/>
+    <text x="970" y="8" class="value">1.33s</text>
+    <!-- Rust bar (0.21) -->
+    <rect x="200" y="20" width="120" height="18" class="rust" rx="6"/>
+    <text x="324" y="34" class="value">0.21s</text>
+    <text x="540" y="34" class="note">↓84%</text>
+
+    <!-- Row: P95 -->
+    <text x="20" y="68" class="label">P95 (s)</text>
+    <rect x="200" y="44" width="760" height="18" class="fast" rx="6"/>
+    <text x="970" y="58" class="value">1.55s</text>
+    <rect x="200" y="70" width="118" height="18" class="rust" rx="6"/>
+    <text x="322" y="84" class="value">0.24s</text>
+    <text x="540" y="84" class="note">↓84%</text>
+
+    <!-- Row: P99 -->
+    <text x="20" y="118" class="label">P99 (s)</text>
+    <rect x="200" y="94" width="760" height="18" class="fast" rx="6"/>
+    <text x="970" y="108" class="value">1.91s</text>
+    <rect x="200" y="120" width="100" height="18" class="rust" rx="6"/>
+    <text x="304" y="134" class="value">0.25s</text>
+    <text x="540" y="134" class="note">↓87%</text>
+
+    <!-- Row: Min Latency -->
+    <text x="20" y="168" class="label">Min latency (s)</text>
+    <rect x="200" y="144" width="760" height="18" class="fast" rx="6"/>
+    <text x="970" y="158" class="value">0.52s</text>
+    <rect x="200" y="170" width="230" height="18" class="rust" rx="6"/>
+    <text x="434" y="184" class="value">0.16s</text>
+    <text x="540" y="184" class="note">↓69%</text>
+
+    <!-- Row: Max Latency -->
+    <text x="20" y="218" class="label">Max latency (s)</text>
+    <rect x="200" y="194" width="760" height="18" class="fast" rx="6"/>
+    <text x="970" y="208" class="value">2.59s</text>
+    <rect x="200" y="220" width="85" height="18" class="rust" rx="6"/>
+    <text x="289" y="234" class="value">0.29s</text>
+    <text x="540" y="234" class="note">↓89%</text>
+
+    <!-- Row: RPS (higher is better) -->
+    <text x="20" y="268" class="label">Requests/sec (RPS)</text>
+    <rect x="200" y="244" width="500" height="18" class="fast" rx="6"/>
+    <text x="704" y="258" class="value">37.19</text>
+    <rect x="200" y="270" width="760" height="18" class="rust" rx="6"/>
+    <text x="964" y="284" class="value">56.44</text>
+    <text x="540" y="284" class="note">↑52%</text>
+
+    <!-- Row: Total Requests -->
+    <text x="20" y="318" class="label">Total Requests (Req)</text>
+    <rect x="200" y="294" width="500" height="18" class="fast" rx="6"/>
+    <text x="704" y="308" class="value">2270</text>
+    <rect x="200" y="320" width="760" height="18" class="rust" rx="6"/>
+    <text x="964" y="334" class="value">3444</text>
+    <text x="540" y="334" class="note">↑52%</text>
+
+    <!-- Row: Memory (MB) -->
+    <text x="20" y="368" class="label">Memory (MB)</text>
+    <rect x="200" y="344" width="760" height="18" class="fast" rx="6"/>
+    <text x="964" y="358" class="value">2858.12</text>
+    <rect x="200" y="370" width="640" height="18" class="rust" rx="6"/>
+    <text x="844" y="384" class="value">2420</text>
+    <text x="540" y="384" class="note">↓15%</text>
+  </g>
+
+  <!-- Footer note -->
+  <text x="20" y="558" class="note">Visualization: per-row normalized bars (each row compares FastAPI vs Rust for the same metric). Values taken from local benchmark screenshot.</text>
+</svg>

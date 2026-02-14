@@ -1,0 +1,10 @@
+host = "0.0.0.0"
+port = 3000
+backend_url = "http://127.0.0.1:8000"
+backend_type = "Candle"
+model_path = "./models/Yuan-embedding-2.0-zh"
+normalize_embeddings = true
+batch_size = 32
+workers = 1
+queue_capacity = 100
+model_name = "yuan-embedding-2.0-zh"
