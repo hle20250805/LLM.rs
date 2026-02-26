@@ -1,6 +1,6 @@
 # LLM.rs（中文）
 
-![LLM.rs Logo](./assets/logo.svg)
+![LLM.rs Logo](./assets/logo.png)
 
 [English / README.md](./README.md)
 
