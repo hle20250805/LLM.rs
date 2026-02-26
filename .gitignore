@@ -36,8 +36,12 @@ models/
 
 # Archive files
 *.tar.gz
+*.tar
 *.zip
 *.rar
+
+# Test repo
+test-repo/
 
 # Log files
 *.log
