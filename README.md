@@ -39,7 +39,34 @@ LLM.rs is a high-performance embedding service built with Rust, providing OpenAI
 
 ## How to Use
 
-### 1. Startup and Model Configuration
+### 1. Docker Usage
+
+#### Pull Docker Image
+```bash
+# Pull the latest image from Docker Hub
+docker pull h20260224/llmrs:latest
+```
+
+#### Run Docker Container
+```bash
+# Run container with default configuration
+docker run -d -p 3000:3000 --name llmrs h20260224/llmrs:latest
+
+# Run with custom environment variables
+docker run -d -p 3000:3000 --name llmrs \
+  -e HOST=0.0.0.0 \
+  -e PORT=3000 \
+  -e BACKEND_URL=http://127.0.0.1:8000 \
+  -e MODEL_NAME=your-model-name \
+  h20260224/llmrs:latest
+
+# Run with config.toml file
+docker run -d -p 3000:3000 --name llmrs \
+  -v ./config.toml:/app/config.toml \
+  h20260224/llmrs:latest
+```
+
+### 2. Startup and Model Configuration
 
 #### Prerequisites
 - Rust installed (see [Linux Build Environment](#linux-build-environment) for installation instructions)
@@ -94,7 +121,7 @@ To switch models, simply update the `MODEL_NAME` environment variable or config.
 MODEL_NAME=new-model-name cargo run
 ```
 
-### 2. RESTful API Usage
+### 3. RESTful API Usage
 
 #### Health Check
 ```bash

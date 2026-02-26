@@ -39,7 +39,34 @@ LLM.rs 是基于 Rust 的高性能 embedding 服务，提供 OpenAI 兼容的 `/
 
 ## 如何使用
 
-### 1. 启动与模型配置
+### 1. Docker 使用
+
+#### 拉取 Docker 镜像
+```bash
+# 从 Docker Hub 拉取最新镜像
+docker pull h20260224/llmrs:latest
+```
+
+#### 运行 Docker 容器
+```bash
+# 使用默认配置运行容器
+docker run -d -p 3000:3000 --name llmrs h20260224/llmrs:latest
+
+# 使用自定义环境变量运行
+docker run -d -p 3000:3000 --name llmrs \
+  -e HOST=0.0.0.0 \
+  -e PORT=3000 \
+  -e BACKEND_URL=http://127.0.0.1:8000 \
+  -e MODEL_NAME=your-model-name \
+  h20260224/llmrs:latest
+
+# 使用 config.toml 文件运行
+docker run -d -p 3000:3000 --name llmrs \
+  -v ./config.toml:/app/config.toml \
+  h20260224/llmrs:latest
+```
+
+### 2. 启动与模型配置
 
 #### 前置条件
 - 已安装 Rust（见 [Linux 构建环境](#linux-构建环境) 中的安装说明）
@@ -94,7 +121,7 @@ queue_capacity = 100
 MODEL_NAME=new-model-name cargo run
 ```
 
-### 2. RESTful API 使用
+### 3. RESTful API 使用
 
 #### 健康检查
 ```bash
