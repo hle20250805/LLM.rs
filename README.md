@@ -5,15 +5,17 @@
 </p>
 
 <p align="center">
-  High-Performance Embedding Service Built with Rust
+  💬High-Performance Embedding Service Built with Rust
 </p>
 
 <p align="center">
-  Rust-based embedding service with OpenAI-compatible API and pluggable backends
+  🔧Rust-based embedding service with OpenAI-compatible API and pluggable backends
 </p>
 
 <p align="center">
-  version 1.0.0 Rust 1.70+ License MIT
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
+  <img src="https://img.shields.io/badge/Rust-1.70+-orange.svg" alt="Rust Version">
+  <img src="https://img.shields.io/badge/license-MIT-red.svg" alt="License">
 </p>
 
 <p align="center">

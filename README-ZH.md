@@ -5,15 +5,17 @@
 </p>
 
 <p align="center">
-  高性能嵌入式服务，基于 Rust 构建
+  💬高性能嵌入式服务，基于 Rust 构建
 </p>
 
 <p align="center">
-  基于 Rust 的嵌入式服务，提供 OpenAI 兼容的 API 和可插拔后端
+  🔧基于 Rust 的嵌入式服务，提供 OpenAI 兼容的 API 和可插拔后端
 </p>
 
 <p align="center">
-  version 1.0.0 Rust 1.70+ License MIT
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
+  <img src="https://img.shields.io/badge/Rust-1.70+-orange.svg" alt="Rust Version">
+  <img src="https://img.shields.io/badge/license-MIT-red.svg" alt="License">
 </p>
 
 <p align="center">
