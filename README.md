@@ -4,7 +4,14 @@
 
 **High-Performance Embedding Service Built with Rust**
 
-✅ Faster Speed ✅ Higher Throughput ✅ Lower Resource Usage
+Rust-based embedding service with OpenAI-compatible API and pluggable backends
+
+| version | Rust | License |
+|---------|------|---------|
+| 1.0.0   | 1.70+| MIT     |
+
+| 🔥 Faster Speed | 📈 Higher Throughput | 📊 Lower Resource Usage |
+|----------------|---------------------|-------------------------|
 
 [中文 / README-ZH.md](./README-ZH.md)
 
