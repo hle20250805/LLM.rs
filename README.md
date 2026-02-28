@@ -1,19 +1,33 @@
 # LLM.rs
 
-![LLM.rs Logo](./assets/logo.png)
+<p align="center">
+  <img src="./assets/logo.png" alt="LLM.rs Logo" width="300" height="200" />
+</p>
 
-**High-Performance Embedding Service Built with Rust**
+<p align="center">
+  <strong>High-Performance Embedding Service Built with Rust</strong>
+</p>
 
-Rust-based embedding service with OpenAI-compatible API and pluggable backends
+<p align="center">
+  Rust-based embedding service with OpenAI-compatible API and pluggable backends
+</p>
 
-| version | Rust | License |
-|---------|------|---------|
-| 1.0.0   | 1.70+| MIT     |
+<p align="center">
+  <span style="background-color: #333; color: white; padding: 5px 10px; border-radius: 4px;">version</span>
+  <span style="background-color: #1E88E5; color: white; padding: 5px 10px; border-radius: 4px;">1.0.0</span>
+  <span style="background-color: #333; color: white; padding: 5px 10px; border-radius: 4px;">Rust</span>
+  <span style="background-color: #1E88E5; color: white; padding: 5px 10px; border-radius: 4px;">1.70+</span>
+  <span style="background-color: #333; color: white; padding: 5px 10px; border-radius: 4px;">License</span>
+  <span style="background-color: #1E88E5; color: white; padding: 5px 10px; border-radius: 4px;">MIT</span>
+</p>
 
-| 🔥 Faster Speed | 📈 Higher Throughput | 📊 Lower Resource Usage |
-|----------------|---------------------|-------------------------|
+<p align="center">
+  <a href="./README-ZH.md">中文 / README-ZH.md</a>
+</p>
 
-[中文 / README-ZH.md](./README-ZH.md)
+<p style="background-color: #FFF9C4; padding: 15px; border-radius: 4px; text-align: center;">
+  🔥 Faster Speed | 📈 Higher Throughput | 📊 Lower Resource Usage
+</p>
 
 ---
 
