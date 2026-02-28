@@ -1,22 +1,22 @@
-<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="120" fill="#f8f9fa" rx="8" ry="8"/>
-  <rect width="800" height="120" fill="none" stroke="#e9ecef" stroke-width="1" rx="8" ry="8"/>
+<svg width="1000" height="120" viewBox="0 0 1000 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="120" fill="#f8f9fa" rx="8" ry="8"/>
+  <rect width="1000" height="120" fill="none" stroke="#e9ecef" stroke-width="1" rx="8" ry="8"/>
   
-  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#343a40">Core Advantages</text>
+  <text x="500" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#343a40">Core Advantages</text>
   
-  <g transform="translate(200, 80)">
+  <g transform="translate(150, 80)">
     <circle cx="0" cy="0" r="20" fill="#ff6b6b"/>
     <text x="0" y="5" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">🔥</text>
     <text x="60" y="5" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#495057">Faster Speed</text>
   </g>
   
-  <g transform="translate(400, 80)">
+  <g transform="translate(500, 80)">
     <circle cx="0" cy="0" r="20" fill="#4ecdc4"/>
     <text x="0" y="5" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">📈</text>
     <text x="60" y="5" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#495057">Higher Throughput</text>
   </g>
   
-  <g transform="translate(600, 80)">
+  <g transform="translate(850, 80)">
     <circle cx="0" cy="0" r="20" fill="#45b7d1"/>
     <text x="0" y="5" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">📊</text>
     <text x="60" y="5" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#495057">Lower Resource Usage</text>
