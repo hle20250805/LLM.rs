@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  🔥 更快的速度 | 📈 更高的吞吐量 | 📊 更低的资源占用
+  <img src="assets/banner-zh.svg" alt="核心优势" width="100%" style="max-width: 800px;"/>
 </p>
 
 ---

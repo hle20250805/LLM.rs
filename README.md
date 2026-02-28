@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  🔥 Faster Speed | 📈 Higher Throughput | 📊 Lower Resource Usage
+  <img src="assets/banner-en.svg" alt="Core Advantages" width="100%" style="max-width: 800px;"/>
 </p>
 
 ---
