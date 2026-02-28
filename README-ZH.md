@@ -1,8 +1,28 @@
 # LLM.rs（中文）
 
-![LLM.rs Logo](./assets/logo.png)
+<p align="center">
+  <img src="./assets/logo.png" alt="LLM.rs Logo" width="300" height="200" />
+</p>
 
-[English / README.md](./README.md)
+<p align="center">
+  高性能嵌入式服务，基于 Rust 构建
+</p>
+
+<p align="center">
+  基于 Rust 的嵌入式服务，提供 OpenAI 兼容的 API 和可插拔后端
+</p>
+
+<p align="center">
+  version 1.0.0 Rust 1.70+ License MIT
+</p>
+
+<p align="center">
+  <a href="./README.md">English / README.md</a>
+</p>
+
+<p align="center">
+  🔥 更快的速度 | 📈 更高的吞吐量 | 📊 更低的资源占用
+</p>
 
 ---
 
