@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>High-Performance Embedding Service Built with Rust</strong>
+  High-Performance Embedding Service Built with Rust
 </p>
 
 <p align="center">
@@ -13,19 +13,14 @@
 </p>
 
 <p align="center">
-  <span style="background-color: #333; color: white; padding: 5px 10px; border-radius: 4px;">version</span>
-  <span style="background-color: #1E88E5; color: white; padding: 5px 10px; border-radius: 4px;">1.0.0</span>
-  <span style="background-color: #333; color: white; padding: 5px 10px; border-radius: 4px;">Rust</span>
-  <span style="background-color: #1E88E5; color: white; padding: 5px 10px; border-radius: 4px;">1.70+</span>
-  <span style="background-color: #333; color: white; padding: 5px 10px; border-radius: 4px;">License</span>
-  <span style="background-color: #1E88E5; color: white; padding: 5px 10px; border-radius: 4px;">MIT</span>
+  version 1.0.0 Rust 1.70+ License MIT
 </p>
 
 <p align="center">
   <a href="./README-ZH.md">中文 / README-ZH.md</a>
 </p>
 
-<p style="background-color: #FFF9C4; padding: 15px; border-radius: 4px; text-align: center;">
+<p align="center">
   🔥 Faster Speed | 📈 Higher Throughput | 📊 Lower Resource Usage
 </p>
 
